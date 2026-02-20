@@ -1,79 +1,163 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Seoul Real-time Subway Map</title>
+    <title>Seoul Live Transport (Subway & Bus)</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link href='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css' rel='stylesheet' />
+    <script src='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js'></script>
     <style>
         #map { height: 100vh; width: 100vw; }
-        body { margin: 0; padding: 0; }
-        .train-icon {
-            background: #fff;
-            border: 2px solid #333;
-            border-radius: 50%;
-            text-align: center;
-            line-height: 20px;
-            font-weight: bold;
-            font-size: 10px;
+        body { margin: 0; padding: 0; font-family: 'Apple SD Gothic Neo', sans-serif; }
+        
+        /* Train/Bus Common Marker Style */
+        .vehicle-marker { z-index: 100; will-change: transform; }
+        .icon-container { width: 34px; height: 34px; position: relative; }
+        .vehicle-svg { width: 100%; height: 100%; filter: drop-shadow(0 3px 5px rgba(0,0,0,0.3)); }
+        .label {
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            color: white; font-weight: 900; font-size: 10px; z-index: 2;
         }
+
+        .kakao-header {
+            position: absolute; top: 20px; left: 20px; background: white; padding: 15px 25px;
+            border-radius: 18px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); z-index: 1000; border: 1px solid #eee;
+        }
+        .kakao-header h1 { margin: 0; font-size: 18px; font-weight: 900; color: #111; }
+        .live-indicator { display: flex; align-items: center; font-size: 12px; color: #666; margin-top: 5px; }
+        .dot { width: 8px; height: 8px; background: #ff4b4b; border-radius: 50%; margin-right: 8px; animation: pulse 1.5s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+        .type-toggle { display: flex; gap: 8px; margin-top: 10px; }
+        .badge { padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 700; color: white; }
     </style>
 </head>
 <body>
+    <div class="kakao-header">
+        <h1>서울 실시간 교통 상황</h1>
+        <div class="live-indicator"><span class="dot"></span><span id="status-text">데이터 동기화 중...</span></div>
+        <div class="type-toggle">
+            <span class="badge" style="background: #009D3E;">지하철</span>
+            <span class="badge" style="background: #0068b7;">버스</span>
+        </div>
+    </div>
     <div id="map"></div>
+
     <script>
-        const map = L.map('map').setView([37.5665, 126.9780], 12);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '© OpenStreetMap'
-        }).addTo(map);
+        const colors = {
+            "1호선": "#0052A4", "2호선": "#009D3E", "3호선": "#EF7C1C", "4호선": "#00A5DE",
+            "5호선": "#996CAC", "6호선": "#CD7C2F", "7호선": "#747F00", "8호선": "#E6186C", "9호선": "#BDB092",
+            "BLUE": "#0068b7", "GREEN": "#53b332", "RED": "#e60012", "YELLOW": "#fbc400"
+        };
 
-        let trainLayer = L.geoJSON(null, {
-            pointToLayer: function (feature, latlng) {
-                const line = feature.properties.line;
-                const colors = {
-                    "1호선": "#0052A4", "2호선": "#009D3E", "3호선": "#EF7C1C", "4호선": "#00A5DE",
-                    "5호선": "#996CAC", "6호선": "#CD7C2F", "7호선": "#747F00", "8호선": "#E6186C", "9호선": "#BDB092"
-                };
-                return L.marker(latlng, {
-                    icon: L.divIcon({
-                        className: 'train-icon',
-                        html: `<div style="background-color: ${colors[line] || '#ccc'}; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 2px solid white; box-shadow: 0 0 5px rgba(0,0,0,0.5);">${line[0]}</div>`,
-                        iconSize: [24, 24]
-                    })
-                });
-            },
-            onEachFeature: function (feature, layer) {
-                layer.bindPopup(`
-                    <b>Line:</b> ${feature.properties.line}<br>
-                    <b>Station:</b> ${feature.properties.station}<br>
-                    <b>Train No:</b> ${feature.properties.trainNo}<br>
-                    <b>Status:</b> ${feature.properties.status}<br>
-                    <b>Direction:</b> ${feature.properties.updnLine}
-                `);
-            }
-        }).addTo(map);
+        const map = new maplibregl.Map({
+            container: 'map',
+            style: 'https://tiles.openfreemap.org/styles/bright',
+            center: [126.9780, 37.5665],
+            zoom: 13,
+            pitch: 0
+        });
 
-        async function updateData() {
-            try {
-                // In production, this would be served from /data/subway-latest.geojson
-                // Since this is a static file in public, we need to fetch it correctly.
-                const response = await fetch('/subway-latest.geojson');
-                if (!response.ok) throw new Error('Failed to fetch data');
-                const data = await response.json();
-                trainLayer.clearLayers();
-                trainLayer.addData(data);
-                console.log('Updated subway positions:', data.features.length);
-            } catch (error) {
-                console.error('Update failed:', error);
-            }
+        let vehicles = {}; // { id: { marker, prevPos, targetPos, startTime, type, ... } }
+
+        function createIcon(type, color, label) {
+            // Subway: Rounded Rectangle, Bus: Sharp Rectangle
+            const rx = type === 'subway' ? 15 : 4;
+            return `
+                <div class="icon-container">
+                    <svg class="vehicle-svg" viewBox="0 0 100 100">
+                        <rect x="25" y="10" width="50" height="80" rx="${rx}" fill="${color}" stroke="white" stroke-width="2"/>
+                        <rect x="30" y="15" width="40" height="15" rx="2" fill="rgba(255,255,255,0.4)" />
+                        <circle cx="35" cy="85" r="4" fill="white" />
+                        <circle cx="65" cy="85" r="4" fill="white" />
+                    </svg>
+                    <div class="label">${label}</div>
+                </div>
+            `;
         }
 
-        // Periodically update
-        setInterval(updateData, 10000);
-        updateData();
+        async function updateData() {
+            const now = Date.now();
+            const currentIds = new Set();
+
+            try {
+                // Fetch Subway & Bus Data Parallel
+                const [subRes, busRes] = await Promise.all([
+                    fetch('/subway-latest.geojson'),
+                    fetch('/bus-latest.geojson')
+                ]);
+                
+                const subData = await subRes.json();
+                const busData = await busRes.json();
+
+                const processFeature = (f, type) => {
+                    const props = f.properties;
+                    const id = type === 'subway' ? props.trainNo : props.busId;
+                    const [lng, lat] = f.geometry.coordinates;
+                    currentIds.add(id);
+
+                    const color = type === 'subway' ? (colors[props.line] || '#666') : (colors[props.routeType] || '#666');
+                    const label = type === 'subway' ? (props.line.replace(/[^0-9]/g, '') || props.line[0]) : props.routeName;
+
+                    if (vehicles[id]) {
+                        if (vehicles[id].targetPos[0] !== lng || vehicles[id].targetPos[1] !== lat) {
+                            vehicles[id].prevPos = [...vehicles[id].currentPos];
+                            vehicles[id].targetPos = [lng, lat];
+                            vehicles[id].startTime = now;
+                            vehicles[id].duration = 15000;
+                            const angle = Math.atan2(lat - vehicles[id].prevPos[1], lng - vehicles[id].prevPos[0]) * 180 / Math.PI;
+                            vehicles[id].targetRotation = 90 - angle;
+                        }
+                    } else {
+                        const el = document.createElement('div');
+                        el.className = 'vehicle-marker';
+                        el.innerHTML = createIcon(type, color, label);
+                        const marker = new maplibregl.Marker({ element: el, rotationAlignment: 'map' })
+                            .setLngLat([lng, lat])
+                            .addTo(map);
+                        vehicles[id] = { marker, currentPos: [lng, lat], prevPos: [lng, lat], targetPos: [lng, lat], 
+                                         startTime: now, duration: 0, rotation: 0, targetRotation: 0, type };
+                    }
+                };
+
+                subData.features.forEach(f => processFeature(f, 'subway'));
+                busData.features.forEach(f => processFeature(f, 'bus'));
+
+                Object.keys(vehicles).forEach(id => {
+                    if (!currentIds.has(id)) {
+                        vehicles[id].marker.remove();
+                        delete vehicles[id];
+                    }
+                });
+
+                document.getElementById('status-text').innerText = `열차 ${subData.features.length}대, 버스 ${busData.features.length}대 추적 중`;
+            } catch (e) { console.error(e); }
+        }
+
+        function animate() {
+            const now = Date.now();
+            Object.values(vehicles).forEach(v => {
+                if (v.duration > 0) {
+                    const elapsed = now - v.startTime;
+                    const progress = Math.min(elapsed / v.duration, 1);
+                    const ease = progress < 0.5 ? 2 * progress * progress : 1 - Math.pow(-2 * progress + 2, 2) / 2;
+                    v.currentPos = [
+                        v.prevPos[0] + (v.targetPos[0] - v.prevPos[0]) * ease,
+                        v.prevPos[1] + (v.targetPos[1] - v.prevPos[1]) * ease
+                    ];
+                    v.marker.setLngLat(v.currentPos);
+                    v.rotation += (v.targetRotation - v.rotation) * 0.1;
+                    v.marker.setRotation(v.rotation);
+                }
+            });
+            requestAnimationFrame(animate);
+        }
+
+        map.on('load', () => {
+            updateData();
+            setInterval(updateData, 15000);
+            animate();
+        });
     </script>
 </body>
 </html>
