@@ -1,0 +1,50 @@
+{
+  "SeoulRtd.citydata": {
+    "list_total_count": 1,
+    "RESULT": {
+      "CODE": "INFO-000",
+      "MESSAGE": "정상 처리되었습니다"
+    },
+    "row": [
+      {
+        "AREA_NM": "광화문·덕수궁",
+        "AREA_CD": "POI_001",
+        "AREA_CONGEST_LVL": "보통",
+        "AREA_CONGEST_MSG": "행사 없는 평시 수준입니다.",
+        "AREA_PPLTN_MIN": 8900,
+        "AREA_PPLTN_MAX": 13200,
+        "MALE_PPLTN_RATE": 48.3,
+        "FEMALE_PPLTN_RATE": 51.7,
+        "PPLTN_RATE_0": 4.1,
+        "PPLTN_RATE_10": 5.5,
+        "PPLTN_RATE_20": 12.9,
+        "PPLTN_RATE_30": 17.8,
+        "PPLTN_RATE_40": 19.2,
+        "PPLTN_RATE_50": 18.6,
+        "PPLTN_RATE_60": 13.4,
+        "PPLTN_RATE_70": 8.5,
+        "ROAD_TRAFFIC_IDX": 32.2,
+        "ROAD_TRAFFIC_SPD": 24.3,
+        "ROAD_TRAFFIC_MSG": "세종대로 평균 속도 24km/h",
+        "LIVE_PPLTN_STTS": [
+          {
+            "PPLTN_TIME": "2026-02-19T09:00:00",
+            "AREA_PPLTN": 11820,
+            "AREA_CONGEST_LVL": "보통",
+            "AREA_CONGEST_MSG": "평시 수준",
+            "PPLTN_MIN": 10000,
+            "PPLTN_MAX": 13000
+          },
+          {
+            "PPLTN_TIME": "2026-02-19T08:50:00",
+            "AREA_PPLTN": 11210,
+            "AREA_CONGEST_LVL": "보통",
+            "AREA_CONGEST_MSG": "대기 5분 내외",
+            "PPLTN_MIN": 9800,
+            "PPLTN_MAX": 12000
+          }
+        ]
+      }
+    ]
+  }
+}

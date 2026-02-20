@@ -137,6 +137,22 @@ const entries: SubCliEntry[] = [
     },
   },
   {
+    name: "people-flow",
+    description: "Seoul people-flow toolkit",
+    register: async (program) => {
+      const mod = await import("../people-flow-cli.js");
+      mod.registerPeopleFlowCli(program);
+    },
+  },
+  {
+    name: "travel-signal",
+    description: "Travel AI Signal toolkit",
+    register: async (program) => {
+      const mod = await import("../travel-signal-cli.js");
+      mod.registerTravelSignalCli(program);
+    },
+  },
+  {
     name: "dns",
     description: "DNS helpers",
     register: async (program) => {

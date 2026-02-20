@@ -1,0 +1,47 @@
+[
+  {
+    "id": "gwanghwamun",
+    "name": "광화문·덕수궁",
+    "district": "종로구",
+    "category": "historic-core",
+    "apiName": "광화문·덕수궁",
+    "latitude": 37.57043,
+    "longitude": 126.97683
+  },
+  {
+    "id": "hongdae",
+    "name": "홍대 관광특구",
+    "district": "마포구",
+    "category": "nightlife",
+    "apiName": "홍대 관광특구",
+    "latitude": 37.55778,
+    "longitude": 126.92302
+  },
+  {
+    "id": "gangnam-mice",
+    "name": "강남 MICE 관광특구",
+    "district": "강남구",
+    "category": "business",
+    "apiName": "강남MICE관광특구",
+    "latitude": 37.51301,
+    "longitude": 127.05925
+  },
+  {
+    "id": "yeouido",
+    "name": "여의도",
+    "district": "영등포구",
+    "category": "financial",
+    "apiName": "여의도",
+    "latitude": 37.52521,
+    "longitude": 126.92464
+  },
+  {
+    "id": "jamsil",
+    "name": "잠실 관광특구",
+    "district": "송파구",
+    "category": "entertainment",
+    "apiName": "잠실 관광특구",
+    "latitude": 37.5113,
+    "longitude": 127.09846
+  }
+]

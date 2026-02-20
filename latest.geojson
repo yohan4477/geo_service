@@ -1,0 +1,203 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97683,
+          37.57043
+        ]
+      },
+      "properties": {
+        "locationId": "gwanghwamun",
+        "name": "광화문·덕수궁",
+        "district": "종로구",
+        "category": "historic-core",
+        "congestionLevel": "보통",
+        "congestionMessage": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
+        "populationMin": 42000,
+        "populationMax": 44000,
+        "lastUpdated": "2026-02-20T00:55:00.000Z",
+        "traffic": {
+          "index": null,
+          "speedKph": null
+        },
+        "population": {
+          "maleRate": 52.6,
+          "femaleRate": 47.4,
+          "ageRates": {
+            "0s": 0.3,
+            "10s": 1.2,
+            "20s": 13.1,
+            "30s": 26,
+            "40s": 27.4,
+            "50s": 20.7,
+            "60s": 7.7,
+            "70s": 3.8
+          }
+        },
+        "samples": [
+          {
+            "timestamp": "2026-02-20T00:55:00.000Z",
+            "population": null,
+            "congestionLevel": "보통",
+            "congestionMessage": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
+            "populationMin": 42000,
+            "populationMax": 44000
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92464,
+          37.52521
+        ]
+      },
+      "properties": {
+        "locationId": "yeouido",
+        "name": "여의도",
+        "district": "영등포구",
+        "category": "financial",
+        "congestionLevel": "보통",
+        "congestionMessage": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
+        "populationMin": 145000,
+        "populationMax": 150000,
+        "lastUpdated": "2026-02-20T00:55:00.000Z",
+        "traffic": {
+          "index": null,
+          "speedKph": null
+        },
+        "population": {
+          "maleRate": 56.3,
+          "femaleRate": 43.7,
+          "ageRates": {
+            "0s": 0.3,
+            "10s": 1.9,
+            "20s": 15,
+            "30s": 27.1,
+            "40s": 25.9,
+            "50s": 18.2,
+            "60s": 7.4,
+            "70s": 4.2
+          }
+        },
+        "samples": [
+          {
+            "timestamp": "2026-02-20T00:55:00.000Z",
+            "population": null,
+            "congestionLevel": "보통",
+            "congestionMessage": "사람이 몰려있을 수 있지만 크게 붐비지는 않아요. 도보 이동에 큰 제약이 없어요.",
+            "populationMin": 145000,
+            "populationMax": 150000
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.09846,
+          37.5113
+        ]
+      },
+      "properties": {
+        "locationId": "jamsil",
+        "name": "잠실 관광특구",
+        "district": "송파구",
+        "category": "entertainment",
+        "congestionLevel": "여유",
+        "congestionMessage": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
+        "populationMin": 46000,
+        "populationMax": 48000,
+        "lastUpdated": "2026-02-20T00:55:00.000Z",
+        "traffic": {
+          "index": null,
+          "speedKph": null
+        },
+        "population": {
+          "maleRate": 46.3,
+          "femaleRate": 53.7,
+          "ageRates": {
+            "0s": 0.5,
+            "10s": 14.5,
+            "20s": 16.5,
+            "30s": 21.6,
+            "40s": 19.5,
+            "50s": 13.4,
+            "60s": 8.3,
+            "70s": 5.6
+          }
+        },
+        "samples": [
+          {
+            "timestamp": "2026-02-20T00:55:00.000Z",
+            "population": null,
+            "congestionLevel": "여유",
+            "congestionMessage": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
+            "populationMin": 46000,
+            "populationMax": 48000
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92302,
+          37.55778
+        ]
+      },
+      "properties": {
+        "locationId": "hongdae",
+        "name": "홍대 관광특구",
+        "district": "마포구",
+        "category": "nightlife",
+        "congestionLevel": "여유",
+        "congestionMessage": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
+        "populationMin": 54000,
+        "populationMax": 56000,
+        "lastUpdated": "2026-02-20T00:55:00.000Z",
+        "traffic": {
+          "index": null,
+          "speedKph": null
+        },
+        "population": {
+          "maleRate": 47.1,
+          "femaleRate": 52.9,
+          "ageRates": {
+            "0s": 0.6,
+            "10s": 4.7,
+            "20s": 25.8,
+            "30s": 22.7,
+            "40s": 16.1,
+            "50s": 14.1,
+            "60s": 9.1,
+            "70s": 6.9
+          }
+        },
+        "samples": [
+          {
+            "timestamp": "2026-02-20T00:55:00.000Z",
+            "population": null,
+            "congestionLevel": "여유",
+            "congestionMessage": "사람이 몰려있을 가능성이 낮고 붐빔은 거의 느껴지지 않아요. 도보 이동이 자유로워요.",
+            "populationMin": 54000,
+            "populationMax": 56000
+          }
+        ]
+      }
+    }
+  ],
+  "generatedAt": "2026-02-20T01:18:26.687Z",
+  "source": "seoul-open-data"
+}

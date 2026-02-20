@@ -1,0 +1,52 @@
+[
+  {
+    "sourceId": "arrival-immigration",
+    "title": "입국심사 35분 · 자동출입국 15분 대기",
+    "summary": "인천공항 T1 기준 오늘 09:00~12:00 일반 심사 평균 35분, 자동출입국 15분. 중국 여권 자동 라인 사용 가능(사전 등록 기준).",
+    "stage": "arrival",
+    "painpoint": "information",
+    "publishedAt": "2026-02-19T00:30:00Z",
+    "location": "인천공항 T1",
+    "tags": ["heads-up"]
+  },
+  {
+    "sourceId": "arrival-transport",
+    "title": "AREX 급행 20분 지연 → 리무진 6002번 대체",
+    "summary": "코레일 공지: 공항철도 선로 점검으로 급행열차 20분 지연. 홍대/동대문 이동 시 리무진 6002 번 15분 간격, 위챗페이 결제 가능.",
+    "stage": "arrival",
+    "painpoint": "mobility",
+    "publishedAt": "2026-02-19T01:00:00Z",
+    "location": "인천공항 교통센터",
+    "tags": ["alert"]
+  },
+  {
+    "sourceId": "arrival-currency",
+    "title": "T1 환전소 3곳 25분 대기 · 위안화 환율 193.1",
+    "summary": "신한/우리 환전소 현재 대기 25분. 모바일 앱 사전예약 수령 창구 5분 이내. 공항 eSIM 부스 알리페이 결제 가능.",
+    "stage": "arrival",
+    "painpoint": "payment",
+    "publishedAt": "2026-02-19T01:05:00Z",
+    "location": "인천공항 1터미널",
+    "tags": ["heads-up"]
+  },
+  {
+    "sourceId": "arrival-visa",
+    "title": "Q-code 미작성 승객 추가 10분 소요",
+    "summary": "검역본부 공지: Q-code 미리 작성하지 않은 승객 대상 현장 입력줄 평균 10분. 중국-한국 직항 승객 중 42% 미작성.",
+    "stage": "arrival",
+    "painpoint": "information",
+    "publishedAt": "2026-02-19T00:50:00Z",
+    "location": "검역 구역",
+    "tags": ["alert"]
+  },
+  {
+    "sourceId": "arrival-plan",
+    "title": "폭설 경보로 공항 인근 실내 코스 추천",
+    "summary": "기상청 18시 이후 대설 예보 → 도심 이동 전 영종도 파라다이스시티 스파·쇼핑 프로모션 30% 할인, 대기 없음.",
+    "stage": "arrival",
+    "painpoint": "experience",
+    "publishedAt": "2026-02-19T01:20:00Z",
+    "location": "영종도",
+    "tags": ["heads-up"]
+  }
+]

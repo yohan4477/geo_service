@@ -1,0 +1,15 @@
+{
+  "collectors": [
+    {
+      "type": "static-file",
+      "id": "sample",
+      "path": "./data/travel-signals.sample.json"
+    }
+  ],
+  "reasoner": {
+    "inference": {
+      "minImpactScore": 0.1,
+      "defaultConfidence": 0.7
+    }
+  }
+}
