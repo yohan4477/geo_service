@@ -1,0 +1,5361 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.982923,
+          37.570161
+        ]
+      },
+      "properties": {
+        "trainNo": "0901",
+        "line": "1호선",
+        "station": "종각",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.975411,
+          37.563588
+        ]
+      },
+      "properties": {
+        "trainNo": "0443",
+        "line": "1호선",
+        "station": "시청",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0483,
+          37.580759
+        ]
+      },
+      "properties": {
+        "trainNo": "0445",
+        "line": "1호선",
+        "station": "청량리",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.009287,
+          37.57093
+        ]
+      },
+      "properties": {
+        "trainNo": "0438",
+        "line": "1호선",
+        "station": "동대문",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0483,
+          37.580759
+        ]
+      },
+      "properties": {
+        "trainNo": "0056",
+        "line": "1호선",
+        "station": "청량리",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.023242,
+          37.576095
+        ]
+      },
+      "properties": {
+        "trainNo": "0058",
+        "line": "1호선",
+        "station": "신설동",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04318,
+          37.187533
+        ]
+      },
+      "properties": {
+        "trainNo": "0634",
+        "line": "1호선",
+        "station": "세마",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.989627,
+          37.283862
+        ]
+      },
+      "properties": {
+        "trainNo": "0635",
+        "line": "1호선",
+        "station": "화서",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.694181,
+          37.464737
+        ]
+      },
+      "properties": {
+        "trainNo": "0072",
+        "line": "1호선",
+        "station": "간석",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.063549,
+          37.596073
+        ]
+      },
+      "properties": {
+        "trainNo": "0643",
+        "line": "1호선",
+        "station": "외대앞",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.656666,
+          37.466769
+        ]
+      },
+      "properties": {
+        "trainNo": "0074",
+        "line": "1호선",
+        "station": "제물포",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.935433,
+          37.384653
+        ]
+      },
+      "properties": {
+        "trainNo": "0637",
+        "line": "1호선",
+        "station": "명학",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.146826,
+          36.810005
+        ]
+      },
+      "properties": {
+        "trainNo": "0638",
+        "line": "1호선",
+        "station": "천안",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.062278,
+          37.109447
+        ]
+      },
+      "properties": {
+        "trainNo": "0636",
+        "line": "1호선",
+        "station": "진위",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.891144,
+          37.508787
+        ]
+      },
+      "properties": {
+        "trainNo": "0079",
+        "line": "1호선",
+        "station": "신도림",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.656666,
+          37.466769
+        ]
+      },
+      "properties": {
+        "trainNo": "0071",
+        "line": "1호선",
+        "station": "제물포",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.061277,
+          37.843188
+        ]
+      },
+      "properties": {
+        "trainNo": "0093",
+        "line": "1호선",
+        "station": "덕정",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9257265,
+          37.5133059
+        ]
+      },
+      "properties": {
+        "trainNo": "0628",
+        "line": "1호선",
+        "station": "대방",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.922874,
+          37.401592
+        ]
+      },
+      "properties": {
+        "trainNo": "0439",
+        "line": "1호선",
+        "station": "안양",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.975411,
+          37.563588
+        ]
+      },
+      "properties": {
+        "trainNo": "1910",
+        "line": "1호선",
+        "station": "시청",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.845365,
+          37.494526
+        ]
+      },
+      "properties": {
+        "trainNo": "0077",
+        "line": "1호선",
+        "station": "오류동",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0483,
+          37.580759
+        ]
+      },
+      "properties": {
+        "trainNo": "0445",
+        "line": "1호선",
+        "station": "청량리",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.990305,
+          37.57254
+        ]
+      },
+      "properties": {
+        "trainNo": "1917",
+        "line": "1호선",
+        "station": "종로3가",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97075,
+          37.300349
+        ]
+      },
+      "properties": {
+        "trainNo": "1914",
+        "line": "1호선",
+        "station": "성균관대",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06672,
+          37.145885
+        ]
+      },
+      "properties": {
+        "trainNo": "1913",
+        "line": "1호선",
+        "station": "오산",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9257265,
+          37.5133059
+        ]
+      },
+      "properties": {
+        "trainNo": "1915",
+        "line": "1호선",
+        "station": "대방",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.764843,
+          37.486562
+        ]
+      },
+      "properties": {
+        "trainNo": "1610",
+        "line": "1호선",
+        "station": "중동",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97296,
+          37.55569
+        ]
+      },
+      "properties": {
+        "trainNo": "1910",
+        "line": "1호선",
+        "station": "서울",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.057583,
+          37.58946
+        ]
+      },
+      "properties": {
+        "trainNo": "1608",
+        "line": "1호선",
+        "station": "회기",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.964561,
+          37.529849
+        ]
+      },
+      "properties": {
+        "trainNo": "1312",
+        "line": "1호선",
+        "station": "용산",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.702896,
+          37.471408
+        ]
+      },
+      "properties": {
+        "trainNo": "1202",
+        "line": "1호선",
+        "station": "동암",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.061835,
+          37.623632
+        ]
+      },
+      "properties": {
+        "trainNo": "1605",
+        "line": "1호선",
+        "station": "광운대",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.889249,
+          37.466613
+        ]
+      },
+      "properties": {
+        "trainNo": "0630",
+        "line": "1호선",
+        "station": "독산",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0483,
+          37.580759
+        ]
+      },
+      "properties": {
+        "trainNo": "0056",
+        "line": "1호선",
+        "station": "청량리",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.023242,
+          37.576095
+        ]
+      },
+      "properties": {
+        "trainNo": "0058",
+        "line": "1호선",
+        "station": "신설동",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.989627,
+          37.283862
+        ]
+      },
+      "properties": {
+        "trainNo": "0632",
+        "line": "1호선",
+        "station": "화서",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9713,
+          37.541021
+        ]
+      },
+      "properties": {
+        "trainNo": "0060",
+        "line": "1호선",
+        "station": "남영",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.032731,
+          37.207503
+        ]
+      },
+      "properties": {
+        "trainNo": "0433",
+        "line": "1호선",
+        "station": "병점",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.065595,
+          37.614872
+        ]
+      },
+      "properties": {
+        "trainNo": "0087",
+        "line": "1호선",
+        "station": "석계",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.056482,
+          37.901885
+        ]
+      },
+      "properties": {
+        "trainNo": "0048",
+        "line": "1호선",
+        "station": "동두천중앙",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.881966,
+          37.503039
+        ]
+      },
+      "properties": {
+        "trainNo": "1077",
+        "line": "1호선",
+        "station": "구로",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.632802,
+          37.475276
+        ]
+      },
+      "properties": {
+        "trainNo": "1073",
+        "line": "1호선",
+        "station": "동인천",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.057583,
+          37.58946
+        ]
+      },
+      "properties": {
+        "trainNo": "0805",
+        "line": "1호선",
+        "station": "회기",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.009287,
+          37.57093
+        ]
+      },
+      "properties": {
+        "trainNo": "0438",
+        "line": "1호선",
+        "station": "동대문",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.951108,
+          36.769502
+        ]
+      },
+      "properties": {
+        "trainNo": "0627",
+        "line": "1호선",
+        "station": "신창",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.964561,
+          37.529849
+        ]
+      },
+      "properties": {
+        "trainNo": "0062",
+        "line": "1호선",
+        "station": "용산",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.045595,
+          37.679563
+        ]
+      },
+      "properties": {
+        "trainNo": "0089",
+        "line": "1호선",
+        "station": "도봉",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.042292,
+          37.75938
+        ]
+      },
+      "properties": {
+        "trainNo": "0052",
+        "line": "1호선",
+        "station": "녹양",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.999422,
+          37.265917
+        ]
+      },
+      "properties": {
+        "trainNo": "0435",
+        "line": "1호선",
+        "station": "수원",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.882656,
+          37.480338
+        ]
+      },
+      "properties": {
+        "trainNo": "0442",
+        "line": "1호선",
+        "station": "가산디지털단지",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.045958,
+          37.738415
+        ]
+      },
+      "properties": {
+        "trainNo": "0091",
+        "line": "1호선",
+        "station": "의정부",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.702896,
+          37.471408
+        ]
+      },
+      "properties": {
+        "trainNo": "0073",
+        "line": "1호선",
+        "station": "동암",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.964561,
+          37.529849
+        ]
+      },
+      "properties": {
+        "trainNo": "0081",
+        "line": "1호선",
+        "station": "용산",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.975411,
+          37.563588
+        ]
+      },
+      "properties": {
+        "trainNo": "0443",
+        "line": "1호선",
+        "station": "시청",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.143904,
+          36.870593
+        ]
+      },
+      "properties": {
+        "trainNo": "0752",
+        "line": "1호선",
+        "station": "직산",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.870793,
+          37.496756
+        ]
+      },
+      "properties": {
+        "trainNo": "0066",
+        "line": "1호선",
+        "station": "구일",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.951108,
+          36.769502
+        ]
+      },
+      "properties": {
+        "trainNo": "0640",
+        "line": "1호선",
+        "station": "신창",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.782686,
+          37.48405
+        ]
+      },
+      "properties": {
+        "trainNo": "1303",
+        "line": "1호선",
+        "station": "부천",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.964561,
+          37.529849
+        ]
+      },
+      "properties": {
+        "trainNo": "1305",
+        "line": "1호선",
+        "station": "용산",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.811502,
+          37.485178
+        ]
+      },
+      "properties": {
+        "trainNo": "1078",
+        "line": "1호선",
+        "station": "역곡",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.881966,
+          37.503039
+        ]
+      },
+      "properties": {
+        "trainNo": "1076",
+        "line": "1호선",
+        "station": "구로",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.891144,
+          37.508787
+        ]
+      },
+      "properties": {
+        "trainNo": "0812",
+        "line": "1호선",
+        "station": "신도림",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.056482,
+          37.901885
+        ]
+      },
+      "properties": {
+        "trainNo": "0809",
+        "line": "1호선",
+        "station": "동두천중앙",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.811502,
+          37.485178
+        ]
+      },
+      "properties": {
+        "trainNo": "0068",
+        "line": "1호선",
+        "station": "역곡",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.707704,
+          37.483664
+        ]
+      },
+      "properties": {
+        "trainNo": "0070",
+        "line": "1호선",
+        "station": "백운",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.061835,
+          37.623632
+        ]
+      },
+      "properties": {
+        "trainNo": "0054",
+        "line": "1호선",
+        "station": "광운대",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.889249,
+          37.466613
+        ]
+      },
+      "properties": {
+        "trainNo": "0639",
+        "line": "1호선",
+        "station": "독산",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.881966,
+          37.503039
+        ]
+      },
+      "properties": {
+        "trainNo": "0441",
+        "line": "1호선",
+        "station": "구로",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.948217,
+          37.320852
+        ]
+      },
+      "properties": {
+        "trainNo": "0437",
+        "line": "1호선",
+        "station": "의왕",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.908706,
+          37.419232
+        ]
+      },
+      "properties": {
+        "trainNo": "0444",
+        "line": "1호선",
+        "station": "관악",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.999422,
+          37.265917
+        ]
+      },
+      "properties": {
+        "trainNo": "0446",
+        "line": "1호선",
+        "station": "수원",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.061835,
+          37.623632
+        ]
+      },
+      "properties": {
+        "trainNo": "0447",
+        "line": "1호선",
+        "station": "광운대",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.907628,
+          37.515504
+        ]
+      },
+      "properties": {
+        "trainNo": "0064",
+        "line": "1호선",
+        "station": "영등포",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.617326,
+          37.476403
+        ]
+      },
+      "properties": {
+        "trainNo": "0069",
+        "line": "1호선",
+        "station": "인천",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.907628,
+          37.515504
+        ]
+      },
+      "properties": {
+        "trainNo": "0807",
+        "line": "1호선",
+        "station": "영등포",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.990305,
+          37.57254
+        ]
+      },
+      "properties": {
+        "trainNo": "1917",
+        "line": "1호선",
+        "station": "종로3가",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.126964,
+          36.916076
+        ]
+      },
+      "properties": {
+        "trainNo": "0761",
+        "line": "1호선",
+        "station": "성환",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.04318,
+          37.187533
+        ]
+      },
+      "properties": {
+        "trainNo": "0763",
+        "line": "1호선",
+        "station": "세마",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.982923,
+          37.570161
+        ]
+      },
+      "properties": {
+        "trainNo": "0901",
+        "line": "1호선",
+        "station": "종각",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.981651,
+          37.476955
+        ]
+      },
+      "properties": {
+        "trainNo": "3180",
+        "line": "2호선",
+        "station": "사당",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.085916,
+          37.537077
+        ]
+      },
+      "properties": {
+        "trainNo": "6163",
+        "line": "2호선",
+        "station": "구의",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.043655,
+          37.555273
+        ]
+      },
+      "properties": {
+        "trainNo": "2156",
+        "line": "2호선",
+        "station": "한양대",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.946013,
+          37.556733
+        ]
+      },
+      "properties": {
+        "trainNo": "3166",
+        "line": "2호선",
+        "station": "이대",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.89503,
+          37.5242
+        ]
+      },
+      "properties": {
+        "trainNo": "4189",
+        "line": "2호선",
+        "station": "영등포구청",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.89476,
+          37.517933
+        ]
+      },
+      "properties": {
+        "trainNo": "2191",
+        "line": "2호선",
+        "station": "문래",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.913366,
+          37.549209
+        ]
+      },
+      "properties": {
+        "trainNo": "2193",
+        "line": "2호선",
+        "station": "합정",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9629,
+          37.560236
+        ]
+      },
+      "properties": {
+        "trainNo": "2199",
+        "line": "2호선",
+        "station": "충정로",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.981651,
+          37.476955
+        ]
+      },
+      "properties": {
+        "trainNo": "2179",
+        "line": "2호선",
+        "station": "사당",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9629,
+          37.560236
+        ]
+      },
+      "properties": {
+        "trainNo": "2162",
+        "line": "2호선",
+        "station": "충정로",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.913366,
+          37.549209
+        ]
+      },
+      "properties": {
+        "trainNo": "2168",
+        "line": "2호선",
+        "station": "합정",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.913149,
+          37.487462
+        ]
+      },
+      "properties": {
+        "trainNo": "2183",
+        "line": "2호선",
+        "station": "신대방",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.048807,
+          37.504856
+        ]
+      },
+      "properties": {
+        "trainNo": "3186",
+        "line": "2호선",
+        "station": "선릉",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.086162,
+          37.511687
+        ]
+      },
+      "properties": {
+        "trainNo": "2188",
+        "line": "2호선",
+        "station": "잠실새내",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.023242,
+          37.576095
+        ]
+      },
+      "properties": {
+        "trainNo": "1563",
+        "line": "2호선",
+        "station": "신설동",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.046481,
+          37.57004
+        ]
+      },
+      "properties": {
+        "trainNo": "1566",
+        "line": "2호선",
+        "station": "신답",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.865819,
+          37.512398
+        ]
+      },
+      "properties": {
+        "trainNo": "5561",
+        "line": "2호선",
+        "station": "양천구청",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.882768,
+          37.514287
+        ]
+      },
+      "properties": {
+        "trainNo": "5564",
+        "line": "2호선",
+        "station": "도림천",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.982618,
+          37.566014
+        ]
+      },
+      "properties": {
+        "trainNo": "9001",
+        "line": "2호선",
+        "station": "을지로입구",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.005353,
+          37.564665
+        ]
+      },
+      "properties": {
+        "trainNo": "3160",
+        "line": "2호선",
+        "station": "동대문역사문화공원",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.094681,
+          37.535095
+        ]
+      },
+      "properties": {
+        "trainNo": "2167",
+        "line": "2호선",
+        "station": "강변",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.941892,
+          37.482362
+        ]
+      },
+      "properties": {
+        "trainNo": "3178",
+        "line": "2호선",
+        "station": "봉천",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.048807,
+          37.504856
+        ]
+      },
+      "properties": {
+        "trainNo": "3171",
+        "line": "2호선",
+        "station": "선릉",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.086162,
+          37.511687
+        ]
+      },
+      "properties": {
+        "trainNo": "2169",
+        "line": "2호선",
+        "station": "잠실새내",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.941892,
+          37.482362
+        ]
+      },
+      "properties": {
+        "trainNo": "2181",
+        "line": "2호선",
+        "station": "봉천",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10379,
+          37.520733
+        ]
+      },
+      "properties": {
+        "trainNo": "3192",
+        "line": "2호선",
+        "station": "잠실나루",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.891144,
+          37.508787
+        ]
+      },
+      "properties": {
+        "trainNo": "2187",
+        "line": "2호선",
+        "station": "신도림",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.942597,
+          37.559733
+        ]
+      },
+      "properties": {
+        "trainNo": "2197",
+        "line": "2호선",
+        "station": "신촌",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.005353,
+          37.564665
+        ]
+      },
+      "properties": {
+        "trainNo": "2201",
+        "line": "2호선",
+        "station": "동대문역사문화공원",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.89503,
+          37.5242
+        ]
+      },
+      "properties": {
+        "trainNo": "3170",
+        "line": "2호선",
+        "station": "영등포구청",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.901401,
+          37.485266
+        ]
+      },
+      "properties": {
+        "trainNo": "3174",
+        "line": "2호선",
+        "station": "구로디지털단지",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.028104,
+          37.496837
+        ]
+      },
+      "properties": {
+        "trainNo": "2175",
+        "line": "2호선",
+        "station": "강남",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.007917,
+          37.491897
+        ]
+      },
+      "properties": {
+        "trainNo": "2182",
+        "line": "2호선",
+        "station": "서초",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.071011,
+          37.540786
+        ]
+      },
+      "properties": {
+        "trainNo": "3194",
+        "line": "2호선",
+        "station": "건대입구",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.037059,
+          37.56184
+        ]
+      },
+      "properties": {
+        "trainNo": "3203",
+        "line": "2호선",
+        "station": "왕십리",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.956141,
+          37.557345
+        ]
+      },
+      "properties": {
+        "trainNo": "4195",
+        "line": "2호선",
+        "station": "아현",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.891144,
+          37.508787
+        ]
+      },
+      "properties": {
+        "trainNo": "2172",
+        "line": "2호선",
+        "station": "신도림",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9296159,
+          37.4849266
+        ]
+      },
+      "properties": {
+        "trainNo": "4176",
+        "line": "2호선",
+        "station": "신림",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.013786,
+          37.493025
+        ]
+      },
+      "properties": {
+        "trainNo": "4184",
+        "line": "2호선",
+        "station": "교대",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.104338,
+          37.514692
+        ]
+      },
+      "properties": {
+        "trainNo": "4190",
+        "line": "2호선",
+        "station": "잠실",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.007917,
+          37.491897
+        ]
+      },
+      "properties": {
+        "trainNo": "3177",
+        "line": "2호선",
+        "station": "서초",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.071011,
+          37.540786
+        ]
+      },
+      "properties": {
+        "trainNo": "3161",
+        "line": "2호선",
+        "station": "건대입구",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.918821,
+          37.636763
+        ]
+      },
+      "properties": {
+        "trainNo": "3150",
+        "line": "3호선",
+        "station": "구파발",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9213,
+          37.61878
+        ]
+      },
+      "properties": {
+        "trainNo": "3152",
+        "line": "3호선",
+        "station": "연신내",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10161,
+          37.48637
+        ]
+      },
+      "properties": {
+        "trainNo": "3127",
+        "line": "3호선",
+        "station": "수서",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.943736,
+          37.589066
+        ]
+      },
+      "properties": {
+        "trainNo": "3154",
+        "line": "3호선",
+        "station": "홍제",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10161,
+          37.48637
+        ]
+      },
+      "properties": {
+        "trainNo": "3125",
+        "line": "3호선",
+        "station": "수서",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97353,
+          37.575762
+        ]
+      },
+      "properties": {
+        "trainNo": "3156",
+        "line": "3호선",
+        "station": "경복궁",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.070594,
+          37.496663
+        ]
+      },
+      "properties": {
+        "trainNo": "3129",
+        "line": "3호선",
+        "station": "학여울",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.992548,
+          37.566672
+        ]
+      },
+      "properties": {
+        "trainNo": "3158",
+        "line": "3호선",
+        "station": "을지로3가",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.004403,
+          37.50598
+        ]
+      },
+      "properties": {
+        "trainNo": "3133",
+        "line": "3호선",
+        "station": "고속터미널",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.010358,
+          37.554263
+        ]
+      },
+      "properties": {
+        "trainNo": "3160",
+        "line": "3호선",
+        "station": "약수",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.020114,
+          37.516334
+        ]
+      },
+      "properties": {
+        "trainNo": "3162",
+        "line": "3호선",
+        "station": "신사",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.004403,
+          37.50598
+        ]
+      },
+      "properties": {
+        "trainNo": "3164",
+        "line": "3호선",
+        "station": "고속터미널",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.005602,
+          37.559052
+        ]
+      },
+      "properties": {
+        "trainNo": "3137",
+        "line": "3호선",
+        "station": "동대입구",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.028461,
+          37.527072
+        ]
+      },
+      "properties": {
+        "trainNo": "3135",
+        "line": "3호선",
+        "station": "압구정",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.034653,
+          37.483809
+        ]
+      },
+      "properties": {
+        "trainNo": "3166",
+        "line": "3호선",
+        "station": "양재",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.070594,
+          37.496663
+        ]
+      },
+      "properties": {
+        "trainNo": "3168",
+        "line": "3호선",
+        "station": "학여울",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92939,
+          37.610873
+        ]
+      },
+      "properties": {
+        "trainNo": "3145",
+        "line": "3호선",
+        "station": "불광",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10161,
+          37.48637
+        ]
+      },
+      "properties": {
+        "trainNo": "3170",
+        "line": "3호선",
+        "station": "수서",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.957748,
+          37.574571
+        ]
+      },
+      "properties": {
+        "trainNo": "3143",
+        "line": "3호선",
+        "station": "독립문",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.918821,
+          37.636763
+        ]
+      },
+      "properties": {
+        "trainNo": "3147",
+        "line": "3호선",
+        "station": "구파발",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.127938,
+          37.502057
+        ]
+      },
+      "properties": {
+        "trainNo": "3172",
+        "line": "3호선",
+        "station": "오금",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91397,
+          37.648017
+        ]
+      },
+      "properties": {
+        "trainNo": "3149",
+        "line": "3호선",
+        "station": "지축",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.046769,
+          37.486947
+        ]
+      },
+      "properties": {
+        "trainNo": "3131",
+        "line": "3호선",
+        "station": "매봉",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92939,
+          37.610873
+        ]
+      },
+      "properties": {
+        "trainNo": "3145",
+        "line": "3호선",
+        "station": "불광",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.77762,
+          37.652206
+        ]
+      },
+      "properties": {
+        "trainNo": "3140",
+        "line": "3호선",
+        "station": "마두",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.78787,
+          37.643114
+        ]
+      },
+      "properties": {
+        "trainNo": "3155",
+        "line": "3호선",
+        "station": "백석",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.843041,
+          37.653324
+        ]
+      },
+      "properties": {
+        "trainNo": "3144",
+        "line": "3호선",
+        "station": "원당",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.843041,
+          37.653324
+        ]
+      },
+      "properties": {
+        "trainNo": "3151",
+        "line": "3호선",
+        "station": "원당",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.761334,
+          37.670072
+        ]
+      },
+      "properties": {
+        "trainNo": "3136",
+        "line": "3호선",
+        "station": "주엽",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.918821,
+          37.636763
+        ]
+      },
+      "properties": {
+        "trainNo": "3147",
+        "line": "3호선",
+        "station": "구파발",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.91397,
+          37.648017
+        ]
+      },
+      "properties": {
+        "trainNo": "3149",
+        "line": "3호선",
+        "station": "지축",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.918821,
+          37.636763
+        ]
+      },
+      "properties": {
+        "trainNo": "3150",
+        "line": "3호선",
+        "station": "구파발",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9213,
+          37.61878
+        ]
+      },
+      "properties": {
+        "trainNo": "3152",
+        "line": "3호선",
+        "station": "연신내",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.761334,
+          37.670072
+        ]
+      },
+      "properties": {
+        "trainNo": "3157",
+        "line": "3호선",
+        "station": "주엽",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.005353,
+          37.564665
+        ]
+      },
+      "properties": {
+        "trainNo": "4067",
+        "line": "4호선",
+        "station": "동대문역사문화공원",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.025053,
+          37.603407
+        ]
+      },
+      "properties": {
+        "trainNo": "4069",
+        "line": "4호선",
+        "station": "길음",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.034709,
+          37.648627
+        ]
+      },
+      "properties": {
+        "trainNo": "4071",
+        "line": "4호선",
+        "station": "쌍문",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.989134,
+          37.463873
+        ]
+      },
+      "properties": {
+        "trainNo": "4567",
+        "line": "4호선",
+        "station": "남태령",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.981651,
+          37.476955
+        ]
+      },
+      "properties": {
+        "trainNo": "4569",
+        "line": "4호선",
+        "station": "사당",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.073572,
+          37.660878
+        ]
+      },
+      "properties": {
+        "trainNo": "4070",
+        "line": "4호선",
+        "station": "상계",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.967894,
+          37.52917
+        ]
+      },
+      "properties": {
+        "trainNo": "4571",
+        "line": "4호선",
+        "station": "신용산",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.025732,
+          37.638052
+        ]
+      },
+      "properties": {
+        "trainNo": "4072",
+        "line": "4호선",
+        "station": "수유",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.047274,
+          37.653088
+        ]
+      },
+      "properties": {
+        "trainNo": "4560",
+        "line": "4호선",
+        "station": "창동",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.986325,
+          37.560989
+        ]
+      },
+      "properties": {
+        "trainNo": "4573",
+        "line": "4호선",
+        "station": "명동",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.016516,
+          37.592467
+        ]
+      },
+      "properties": {
+        "trainNo": "4074",
+        "line": "4호선",
+        "station": "성신여대입구",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.030053,
+          37.613292
+        ]
+      },
+      "properties": {
+        "trainNo": "4562",
+        "line": "4호선",
+        "station": "미아사거리",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99408,
+          37.561207
+        ]
+      },
+      "properties": {
+        "trainNo": "4076",
+        "line": "4호선",
+        "station": "충무로",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.001844,
+          37.582336
+        ]
+      },
+      "properties": {
+        "trainNo": "4575",
+        "line": "4호선",
+        "station": "혜화",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.967894,
+          37.52917
+        ]
+      },
+      "properties": {
+        "trainNo": "4078",
+        "line": "4호선",
+        "station": "신용산",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.009287,
+          37.57093
+        ]
+      },
+      "properties": {
+        "trainNo": "4564",
+        "line": "4호선",
+        "station": "동대문",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.025732,
+          37.638052
+        ]
+      },
+      "properties": {
+        "trainNo": "4577",
+        "line": "4호선",
+        "station": "수유",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978153,
+          37.502878
+        ]
+      },
+      "properties": {
+        "trainNo": "4080",
+        "line": "4호선",
+        "station": "동작",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.973406,
+          37.522427
+        ]
+      },
+      "properties": {
+        "trainNo": "4568",
+        "line": "4호선",
+        "station": "이촌",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.981651,
+          37.476955
+        ]
+      },
+      "properties": {
+        "trainNo": "4082",
+        "line": "4호선",
+        "station": "사당",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.060462,
+          37.654836
+        ]
+      },
+      "properties": {
+        "trainNo": "4579",
+        "line": "4호선",
+        "station": "노원",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.972106,
+          37.54456
+        ]
+      },
+      "properties": {
+        "trainNo": "4065",
+        "line": "4호선",
+        "station": "숙대입구",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.973406,
+          37.522427
+        ]
+      },
+      "properties": {
+        "trainNo": "4063",
+        "line": "4호선",
+        "station": "이촌",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97296,
+          37.55569
+        ]
+      },
+      "properties": {
+        "trainNo": "4566",
+        "line": "4호선",
+        "station": "서울",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.989134,
+          37.463873
+        ]
+      },
+      "properties": {
+        "trainNo": "4570",
+        "line": "4호선",
+        "station": "남태령",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.950806,
+          37.389793
+        ]
+      },
+      "properties": {
+        "trainNo": "4722",
+        "line": "4호선",
+        "station": "범계",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.981651,
+          37.476955
+        ]
+      },
+      "properties": {
+        "trainNo": "4569",
+        "line": "4호선",
+        "station": "사당",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.742989,
+          37.351735
+        ]
+      },
+      "properties": {
+        "trainNo": "4580",
+        "line": "4호선",
+        "station": "정왕",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.006523,
+          37.435675
+        ]
+      },
+      "properties": {
+        "trainNo": "4567",
+        "line": "4호선",
+        "station": "대공원",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.917332,
+          37.328467
+        ]
+      },
+      "properties": {
+        "trainNo": "4576",
+        "line": "4호선",
+        "station": "대야미",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978153,
+          37.502878
+        ]
+      },
+      "properties": {
+        "trainNo": "4568",
+        "line": "4호선",
+        "station": "동작",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.738714,
+          37.362357
+        ]
+      },
+      "properties": {
+        "trainNo": "4557",
+        "line": "4호선",
+        "station": "오이도",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.808147,
+          37.319619
+        ]
+      },
+      "properties": {
+        "trainNo": "4578",
+        "line": "4호선",
+        "station": "초지",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.742989,
+          37.351735
+        ]
+      },
+      "properties": {
+        "trainNo": "4559",
+        "line": "4호선",
+        "station": "정왕",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.98978,
+          37.426513
+        ]
+      },
+      "properties": {
+        "trainNo": "4572",
+        "line": "4호선",
+        "station": "정부과천청사",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.933274,
+          37.358101
+        ]
+      },
+      "properties": {
+        "trainNo": "4574",
+        "line": "4호선",
+        "station": "산본",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.903524,
+          37.312212
+        ]
+      },
+      "properties": {
+        "trainNo": "4563",
+        "line": "4호선",
+        "station": "반월",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.950806,
+          37.389793
+        ]
+      },
+      "properties": {
+        "trainNo": "4565",
+        "line": "4호선",
+        "station": "범계",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.981651,
+          37.476955
+        ]
+      },
+      "properties": {
+        "trainNo": "4082",
+        "line": "4호선",
+        "station": "사당",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.85344,
+          37.309689
+        ]
+      },
+      "properties": {
+        "trainNo": "4561",
+        "line": "4호선",
+        "station": "한대앞",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.933274,
+          37.358101
+        ]
+      },
+      "properties": {
+        "trainNo": "4315",
+        "line": "4호선",
+        "station": "산본",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.812741,
+          37.577446
+        ]
+      },
+      "properties": {
+        "trainNo": "5686",
+        "line": "5호선",
+        "station": "방화",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.166417,
+          37.556712
+        ]
+      },
+      "properties": {
+        "trainNo": "5197",
+        "line": "5호선",
+        "station": "상일동",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.042973,
+          37.5661
+        ]
+      },
+      "properties": {
+        "trainNo": "5090",
+        "line": "5호선",
+        "station": "마장",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.952024,
+          37.54253
+        ]
+      },
+      "properties": {
+        "trainNo": "5073",
+        "line": "5호선",
+        "station": "공덕",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.005353,
+          37.564665
+        ]
+      },
+      "properties": {
+        "trainNo": "5071",
+        "line": "5호선",
+        "station": "동대문역사문화공원",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92403,
+          37.52176
+        ]
+      },
+      "properties": {
+        "trainNo": "5589",
+        "line": "5호선",
+        "station": "여의도",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.064623,
+          37.56144
+        ]
+      },
+      "properties": {
+        "trainNo": "5069",
+        "line": "5호선",
+        "station": "장한평",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.990305,
+          37.57254
+        ]
+      },
+      "properties": {
+        "trainNo": "5587",
+        "line": "5호선",
+        "station": "종로3가",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.140004,
+          37.537801
+        ]
+      },
+      "properties": {
+        "trainNo": "5067",
+        "line": "5호선",
+        "station": "길동",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.042973,
+          37.5661
+        ]
+      },
+      "properties": {
+        "trainNo": "5585",
+        "line": "5호선",
+        "station": "마장",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.166417,
+          37.556712
+        ]
+      },
+      "properties": {
+        "trainNo": "5065",
+        "line": "5호선",
+        "station": "상일동",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.127938,
+          37.502057
+        ]
+      },
+      "properties": {
+        "trainNo": "5581",
+        "line": "5호선",
+        "station": "오금",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.812741,
+          37.577446
+        ]
+      },
+      "properties": {
+        "trainNo": "5080",
+        "line": "5호선",
+        "station": "방화",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.020331,
+          37.554548
+        ]
+      },
+      "properties": {
+        "trainNo": "5566",
+        "line": "5호선",
+        "station": "신금호",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.89503,
+          37.5242
+        ]
+      },
+      "properties": {
+        "trainNo": "5075",
+        "line": "5호선",
+        "station": "영등포구청",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.811973,
+          37.561184
+        ]
+      },
+      "properties": {
+        "trainNo": "5593",
+        "line": "5호선",
+        "station": "송정",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.837668,
+          37.558598
+        ]
+      },
+      "properties": {
+        "trainNo": "5082",
+        "line": "5호선",
+        "station": "발산",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.836318,
+          37.548768
+        ]
+      },
+      "properties": {
+        "trainNo": "5077",
+        "line": "5호선",
+        "station": "우장산",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.932901,
+          37.527098
+        ]
+      },
+      "properties": {
+        "trainNo": "5086",
+        "line": "5호선",
+        "station": "여의나루",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.97717,
+          37.571525
+        ]
+      },
+      "properties": {
+        "trainNo": "5088",
+        "line": "5호선",
+        "station": "광화문",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.811973,
+          37.561184
+        ]
+      },
+      "properties": {
+        "trainNo": "5558",
+        "line": "5호선",
+        "station": "송정",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.846683,
+          37.531768
+        ]
+      },
+      "properties": {
+        "trainNo": "5560",
+        "line": "5호선",
+        "station": "까치산",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.905139,
+          37.522669
+        ]
+      },
+      "properties": {
+        "trainNo": "5562",
+        "line": "5호선",
+        "station": "영등포시장",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9629,
+          37.560236
+        ]
+      },
+      "properties": {
+        "trainNo": "5564",
+        "line": "5호선",
+        "station": "충정로",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.22345,
+          37.53972
+        ]
+      },
+      "properties": {
+        "trainNo": "5063",
+        "line": "5호선",
+        "station": "하남검단산",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.17593,
+          37.55749
+        ]
+      },
+      "properties": {
+        "trainNo": "5094",
+        "line": "5호선",
+        "station": "강일",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.193877,
+          37.560927
+        ]
+      },
+      "properties": {
+        "trainNo": "5065",
+        "line": "5호선",
+        "station": "미사",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.056431,
+          37.610537
+        ]
+      },
+      "properties": {
+        "trainNo": "6126",
+        "line": "6호선",
+        "station": "돌곶이",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.019381,
+          37.585286
+        ]
+      },
+      "properties": {
+        "trainNo": "6111",
+        "line": "6호선",
+        "station": "보문",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.910052,
+          37.556094
+        ]
+      },
+      "properties": {
+        "trainNo": "6116",
+        "line": "6호선",
+        "station": "망원",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.007055,
+          37.548013
+        ]
+      },
+      "properties": {
+        "trainNo": "6113",
+        "line": "6호선",
+        "station": "버티고개",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.952024,
+          37.54253
+        ]
+      },
+      "properties": {
+        "trainNo": "6118",
+        "line": "6호선",
+        "station": "공덕",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.986695,
+          37.534675
+        ]
+      },
+      "properties": {
+        "trainNo": "6115",
+        "line": "6호선",
+        "station": "녹사평",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.986695,
+          37.534675
+        ]
+      },
+      "properties": {
+        "trainNo": "6120",
+        "line": "6호선",
+        "station": "녹사평",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.931993,
+          37.547456
+        ]
+      },
+      "properties": {
+        "trainNo": "6117",
+        "line": "6호선",
+        "station": "광흥창",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.016146,
+          37.566154
+        ]
+      },
+      "properties": {
+        "trainNo": "6122",
+        "line": "6호선",
+        "station": "신당",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.091401,
+          37.617283
+        ]
+      },
+      "properties": {
+        "trainNo": "6153",
+        "line": "6호선",
+        "station": "봉화산",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.091401,
+          37.617283
+        ]
+      },
+      "properties": {
+        "trainNo": "6105",
+        "line": "6호선",
+        "station": "봉화산",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.075397,
+          37.618294
+        ]
+      },
+      "properties": {
+        "trainNo": "6107",
+        "line": "6호선",
+        "station": "태릉입구",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.933031,
+          37.618456
+        ]
+      },
+      "properties": {
+        "trainNo": "6123",
+        "line": "6호선",
+        "station": "독바위",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.882656,
+          37.480338
+        ]
+      },
+      "properties": {
+        "trainNo": "7138",
+        "line": "7호선",
+        "station": "가산디지털단지",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.897075,
+          37.493013
+        ]
+      },
+      "properties": {
+        "trainNo": "7145",
+        "line": "7호선",
+        "station": "대림",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.854876,
+          37.479252
+        ]
+      },
+      "properties": {
+        "trainNo": "7140",
+        "line": "7호선",
+        "station": "광명사거리",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.928276,
+          37.499701
+        ]
+      },
+      "properties": {
+        "trainNo": "7147",
+        "line": "7호선",
+        "station": "신대방삼거리",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.046509,
+          37.689241
+        ]
+      },
+      "properties": {
+        "trainNo": "7112",
+        "line": "7호선",
+        "station": "도봉산",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.057675,
+          37.66494
+        ]
+      },
+      "properties": {
+        "trainNo": "7114",
+        "line": "7호선",
+        "station": "마들",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.064303,
+          37.644583
+        ]
+      },
+      "properties": {
+        "trainNo": "7116",
+        "line": "7호선",
+        "station": "중계",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.077725,
+          37.610637
+        ]
+      },
+      "properties": {
+        "trainNo": "7118",
+        "line": "7호선",
+        "station": "먹골",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.05335,
+          37.519365
+        ]
+      },
+      "properties": {
+        "trainNo": "7126",
+        "line": "7호선",
+        "station": "청담",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.72077,
+          37.50848
+        ]
+      },
+      "properties": {
+        "trainNo": "7135",
+        "line": "7호선",
+        "station": "부평구청",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.021415,
+          37.511093
+        ]
+      },
+      "properties": {
+        "trainNo": "7128",
+        "line": "7호선",
+        "station": "논현",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.993513,
+          37.487618
+        ]
+      },
+      "properties": {
+        "trainNo": "7130",
+        "line": "7호선",
+        "station": "내방",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.79661,
+          37.50502
+        ]
+      },
+      "properties": {
+        "trainNo": "7139",
+        "line": "7호선",
+        "station": "부천종합운동장",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.93915,
+          37.504898
+        ]
+      },
+      "properties": {
+        "trainNo": "7134",
+        "line": "7호선",
+        "station": "장승배기",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.854876,
+          37.479252
+        ]
+      },
+      "properties": {
+        "trainNo": "7143",
+        "line": "7호선",
+        "station": "광명사거리",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.823023,
+          37.492092
+        ]
+      },
+      "properties": {
+        "trainNo": "7141",
+        "line": "7호선",
+        "station": "온수",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9204355,
+          37.5002739
+        ]
+      },
+      "properties": {
+        "trainNo": "7136",
+        "line": "7호선",
+        "station": "보라매",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.086727,
+          37.573647
+        ]
+      },
+      "properties": {
+        "trainNo": "7120",
+        "line": "7호선",
+        "station": "용마산",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.6762813,
+          37.5062285
+        ]
+      },
+      "properties": {
+        "trainNo": "7131",
+        "line": "7호선",
+        "station": "석남",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08432,
+          37.565923
+        ]
+      },
+      "properties": {
+        "trainNo": "7122",
+        "line": "7호선",
+        "station": "중곡",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.81093,
+          37.50613
+        ]
+      },
+      "properties": {
+        "trainNo": "7142",
+        "line": "7호선",
+        "station": "까치울",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.74179,
+          37.50724
+        ]
+      },
+      "properties": {
+        "trainNo": "7146",
+        "line": "7호선",
+        "station": "삼산체육관",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.041255,
+          37.517179
+        ]
+      },
+      "properties": {
+        "trainNo": "7155",
+        "line": "7호선",
+        "station": "강남구청",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.011727,
+          37.508178
+        ]
+      },
+      "properties": {
+        "trainNo": "7153",
+        "line": "7호선",
+        "station": "반포",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.071011,
+          37.540786
+        ]
+      },
+      "properties": {
+        "trainNo": "7157",
+        "line": "7호선",
+        "station": "건대입구",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.087503,
+          37.588579
+        ]
+      },
+      "properties": {
+        "trainNo": "7161",
+        "line": "7호선",
+        "station": "면목",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08432,
+          37.565923
+        ]
+      },
+      "properties": {
+        "trainNo": "7159",
+        "line": "7호선",
+        "station": "중곡",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.077725,
+          37.610637
+        ]
+      },
+      "properties": {
+        "trainNo": "7163",
+        "line": "7호선",
+        "station": "먹골",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.06799,
+          37.636352
+        ]
+      },
+      "properties": {
+        "trainNo": "7165",
+        "line": "7호선",
+        "station": "하계",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.057675,
+          37.66494
+        ]
+      },
+      "properties": {
+        "trainNo": "7167",
+        "line": "7호선",
+        "station": "마들",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.046509,
+          37.689241
+        ]
+      },
+      "properties": {
+        "trainNo": "7169",
+        "line": "7호선",
+        "station": "도봉산",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.140722,
+          37.437428
+        ]
+      },
+      "properties": {
+        "trainNo": "8099",
+        "line": "8호선",
+        "station": "수진",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.149908,
+          37.457122
+        ]
+      },
+      "properties": {
+        "trainNo": "8101",
+        "line": "8호선",
+        "station": "산성",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.14973,
+          37.62429
+        ]
+      },
+      "properties": {
+        "trainNo": "8106",
+        "line": "8호선",
+        "station": "다산",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.126732,
+          37.471052
+        ]
+      },
+      "properties": {
+        "trainNo": "8103",
+        "line": "8호선",
+        "station": "복정",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.13794,
+          37.58738
+        ]
+      },
+      "properties": {
+        "trainNo": "8108",
+        "line": "8호선",
+        "station": "장자호수공원",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10704,
+          37.505208
+        ]
+      },
+      "properties": {
+        "trainNo": "8105",
+        "line": "8호선",
+        "station": "석촌",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.127562,
+          37.55021
+        ]
+      },
+      "properties": {
+        "trainNo": "8110",
+        "line": "8호선",
+        "station": "암사",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.120508,
+          37.530341
+        ]
+      },
+      "properties": {
+        "trainNo": "8107",
+        "line": "8호선",
+        "station": "강동구청",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.13702,
+          37.55695
+        ]
+      },
+      "properties": {
+        "trainNo": "8109",
+        "line": "8호선",
+        "station": "암사역사공원",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.104338,
+          37.514692
+        ]
+      },
+      "properties": {
+        "trainNo": "8112",
+        "line": "8호선",
+        "station": "잠실",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1225,
+          37.485855
+        ]
+      },
+      "properties": {
+        "trainNo": "8114",
+        "line": "8호선",
+        "station": "문정",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.13793,
+          37.61105
+        ]
+      },
+      "properties": {
+        "trainNo": "8111",
+        "line": "8호선",
+        "station": "동구릉",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.149908,
+          37.457122
+        ]
+      },
+      "properties": {
+        "trainNo": "8116",
+        "line": "8호선",
+        "station": "산성",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1276,
+          37.64232
+        ]
+      },
+      "properties": {
+        "trainNo": "8113",
+        "line": "8호선",
+        "station": "별내",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.140722,
+          37.437428
+        ]
+      },
+      "properties": {
+        "trainNo": "8118",
+        "line": "8호선",
+        "station": "수진",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.129837,
+          37.433824
+        ]
+      },
+      "properties": {
+        "trainNo": "8120",
+        "line": "8호선",
+        "station": "모란",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.854456,
+          37.561391
+        ]
+      },
+      "properties": {
+        "trainNo": "9073",
+        "line": "9호선",
+        "station": "가양",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.043999,
+          37.510297
+        ]
+      },
+      "properties": {
+        "trainNo": "9080",
+        "line": "9호선",
+        "station": "선정릉",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.987332,
+          37.501364
+        ]
+      },
+      "properties": {
+        "trainNo": "9082",
+        "line": "9호선",
+        "station": "구반포",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.893525,
+          37.53802
+        ]
+      },
+      "properties": {
+        "trainNo": "9077",
+        "line": "9호선",
+        "station": "선유도",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978153,
+          37.502878
+        ]
+      },
+      "properties": {
+        "trainNo": "9081",
+        "line": "9호선",
+        "station": "동작",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.854456,
+          37.561391
+        ]
+      },
+      "properties": {
+        "trainNo": "9088",
+        "line": "9호선",
+        "station": "가양",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.004403,
+          37.50598
+        ]
+      },
+      "properties": {
+        "trainNo": "9083",
+        "line": "9호선",
+        "station": "고속터미널",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.801868,
+          37.56236
+        ]
+      },
+      "properties": {
+        "trainNo": "9090",
+        "line": "9호선",
+        "station": "김포공항",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.060245,
+          37.514219
+        ]
+      },
+      "properties": {
+        "trainNo": "9085",
+        "line": "9호선",
+        "station": "봉은사",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.148739,
+          37.529191
+        ]
+      },
+      "properties": {
+        "trainNo": "9089",
+        "line": "9호선",
+        "station": "중앙보훈병원",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.801868,
+          37.56236
+        ]
+      },
+      "properties": {
+        "trainNo": "9069",
+        "line": "9호선",
+        "station": "김포공항",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.893525,
+          37.53802
+        ]
+      },
+      "properties": {
+        "trainNo": "9086",
+        "line": "9호선",
+        "station": "선유도",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.902809,
+          37.533406
+        ]
+      },
+      "properties": {
+        "trainNo": "9563",
+        "line": "9호선",
+        "station": "당산",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.963708,
+          37.50877
+        ]
+      },
+      "properties": {
+        "trainNo": "9565",
+        "line": "9호선",
+        "station": "흑석",
+        "status": "Departing",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.10704,
+          37.505208
+        ]
+      },
+      "properties": {
+        "trainNo": "9569",
+        "line": "9호선",
+        "station": "석촌",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.92403,
+          37.52176
+        ]
+      },
+      "properties": {
+        "trainNo": "9576",
+        "line": "9호선",
+        "station": "여의도",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.148739,
+          37.529191
+        ]
+      },
+      "properties": {
+        "trainNo": "9571",
+        "line": "9호선",
+        "station": "중앙보훈병원",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.854456,
+          37.561391
+        ]
+      },
+      "properties": {
+        "trainNo": "9578",
+        "line": "9호선",
+        "station": "가양",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.798153,
+          37.578608
+        ]
+      },
+      "properties": {
+        "trainNo": "9067",
+        "line": "9호선",
+        "station": "개화",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.816601,
+          37.567532
+        ]
+      },
+      "properties": {
+        "trainNo": "9071",
+        "line": "9호선",
+        "station": "신방화",
+        "status": "Entering",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.130288,
+          37.516269
+        ]
+      },
+      "properties": {
+        "trainNo": "9076",
+        "line": "9호선",
+        "station": "올림픽공원",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.088025,
+          37.504738
+        ]
+      },
+      "properties": {
+        "trainNo": "9078",
+        "line": "9호선",
+        "station": "삼전",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.874916,
+          37.546936
+        ]
+      },
+      "properties": {
+        "trainNo": "9075",
+        "line": "9호선",
+        "station": "염창",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.941005,
+          37.513534
+        ]
+      },
+      "properties": {
+        "trainNo": "9084",
+        "line": "9호선",
+        "station": "노량진",
+        "status": "Departing",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.929399,
+          37.5170969
+        ]
+      },
+      "properties": {
+        "trainNo": "9079",
+        "line": "9호선",
+        "station": "샛강",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.798153,
+          37.578608
+        ]
+      },
+      "properties": {
+        "trainNo": "9092",
+        "line": "9호선",
+        "station": "개화",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.112216,
+          37.510372
+        ]
+      },
+      "properties": {
+        "trainNo": "9087",
+        "line": "9호선",
+        "station": "송파나루",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.854456,
+          37.561391
+        ]
+      },
+      "properties": {
+        "trainNo": "9561",
+        "line": "9호선",
+        "station": "가양",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.137989,
+          37.519683
+        ]
+      },
+      "properties": {
+        "trainNo": "9570",
+        "line": "9호선",
+        "station": "둔촌오륜",
+        "status": "Entering",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.076275,
+          37.511426
+        ]
+      },
+      "properties": {
+        "trainNo": "9572",
+        "line": "9호선",
+        "station": "종합운동장",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.004403,
+          37.50598
+        ]
+      },
+      "properties": {
+        "trainNo": "9574",
+        "line": "9호선",
+        "station": "고속터미널",
+        "status": "Arriving",
+        "updnLine": "Down"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.02506,
+          37.504598
+        ]
+      },
+      "properties": {
+        "trainNo": "9567",
+        "line": "9호선",
+        "station": "신논현",
+        "status": "Arriving",
+        "updnLine": "Up"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-20T02:02:06.004Z"
+}

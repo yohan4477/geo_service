@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Seoul Real-time Subway Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        #map { height: 100vh; width: 100vw; }
+        body { margin: 0; padding: 0; }
+        .train-icon {
+            background: #fff;
+            border: 2px solid #333;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 20px;
+            font-weight: bold;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        const map = L.map('map').setView([37.5665, 126.9780], 12);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        let trainLayer = L.geoJSON(null, {
+            pointToLayer: function (feature, latlng) {
+                const line = feature.properties.line;
+                const colors = {
+                    "1호선": "#0052A4", "2호선": "#009D3E", "3호선": "#EF7C1C", "4호선": "#00A5DE",
+                    "5호선": "#996CAC", "6호선": "#CD7C2F", "7호선": "#747F00", "8호선": "#E6186C", "9호선": "#BDB092"
+                };
+                return L.marker(latlng, {
+                    icon: L.divIcon({
+                        className: 'train-icon',
+                        html: `<div style="background-color: ${colors[line] || '#ccc'}; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 2px solid white; box-shadow: 0 0 5px rgba(0,0,0,0.5);">${line[0]}</div>`,
+                        iconSize: [24, 24]
+                    })
+                });
+            },
+            onEachFeature: function (feature, layer) {
+                layer.bindPopup(`
+                    <b>Line:</b> ${feature.properties.line}<br>
+                    <b>Station:</b> ${feature.properties.station}<br>
+                    <b>Train No:</b> ${feature.properties.trainNo}<br>
+                    <b>Status:</b> ${feature.properties.status}<br>
+                    <b>Direction:</b> ${feature.properties.updnLine}
+                `);
+            }
+        }).addTo(map);
+
+        async function updateData() {
+            try {
+                // In production, this would be served from /data/subway-latest.geojson
+                // Since this is a static file in public, we need to fetch it correctly.
+                const response = await fetch('/subway-latest.geojson');
+                if (!response.ok) throw new Error('Failed to fetch data');
+                const data = await response.json();
+                trainLayer.clearLayers();
+                trainLayer.addData(data);
+                console.log('Updated subway positions:', data.features.length);
+            } catch (error) {
+                console.error('Update failed:', error);
+            }
+        }
+
+        // Periodically update
+        setInterval(updateData, 10000);
+        updateData();
+    </script>
+</body>
+</html>
